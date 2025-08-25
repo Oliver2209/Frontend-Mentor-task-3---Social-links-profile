@@ -71,8 +71,10 @@ body {
     margin-top: 15px;
 }
 
-.wrapper a:hover {
+.wrapper a:hover,
+.wrapper a:focus {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 12%);
     font-weight: 700;
+    outline: none;
 }
